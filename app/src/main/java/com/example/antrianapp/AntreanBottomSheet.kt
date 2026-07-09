@@ -23,7 +23,7 @@ class AntreanBottomSheet : BottomSheetDialogFragment() {
 
         val rajal = view.findViewById<MaterialCardView>(R.id.rawat_jalan)
         rajal.setOnClickListener {
-            val intent = Intent(requireContext(), DashboardActivity::class.java)
+            val intent = Intent(requireContext(), AntrianActivity::class.java)
             startActivity(intent)
             dismiss()
        }

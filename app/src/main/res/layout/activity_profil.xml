@@ -18,7 +18,6 @@
         android:layout_gravity="center"
         />
 
-
     <EditText
         android:id="@+id/nama_profil"
         android:layout_width="300dp"
@@ -26,6 +25,8 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:inputType="text"
+        android:hint="Nama"
+        android:textColorHint="@color/black"
         android:background="@drawable/bg_input_field" />
 
     <EditText
@@ -35,6 +36,8 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@color/black"
         android:background="@drawable/bg_input_field"/>
 
     <EditText
@@ -44,6 +47,8 @@
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColorHint="@color/black"
         android:background="@drawable/bg_input_field"/>
 
     <TextView
