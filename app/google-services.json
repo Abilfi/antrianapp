@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239541612643",
+    "project_id": "antrianapp-f5a89",
+    "storage_bucket": "antrianapp-f5a89.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239541612643:android:6e35dcaaa57dfe23ef4856",
+        "android_client_info": {
+          "package_name": "com.example.antrianapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ZyC2acHuJZGsNgqxvw5FPLsChR_Hi30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
