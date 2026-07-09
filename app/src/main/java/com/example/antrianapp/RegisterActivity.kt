@@ -76,7 +76,7 @@ class RegisterActivity : AppCompatActivity() {
                     .set(user)
                     .addOnSuccessListener {
                         binding.btnRegister.isEnabled = true
-                        startActivity(Intent(this, LoginActivity::class.java))
+                        startActivity(Intent(this, DashboardActivity::class.java))
                         finish()
                     }
                     .addOnFailureListener { e ->
