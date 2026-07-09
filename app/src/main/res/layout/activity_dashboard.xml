@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nama_user"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Hi, USER"
+            android:textColor="#1E293B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/teks_antrian"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#2563EB"
+        android:text="Selamat Datang" />
+
+    <TextView
+        android:id="@+id/teks_ambil_antrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Silahkan ambil antrian Anda" />
+
+    <Button
+        android:id="@+id/btn_ambilantrian"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_ambil_antrian"
+        android:stateListAnimator="@null"
+        android:text="Ambil Antrian"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gambar_pasien"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-95dp"
+        tools:src="@drawable/pasien" />
+
+    <ImageView
+        android:id="@+id/navigasi_riwayat"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/logo_riwayat" />
+
+    <ImageView
+        android:id="@+id/navigasi_dashboard"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="-65dp"
+        app:srcCompat="@drawable/logo_home" />
+
+    <ImageView
+        android:id="@+id/navigasi_profil"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/logo_profil" />
+
+</LinearLayout>
