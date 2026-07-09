@@ -31,6 +31,18 @@
             android:name=".MainActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="RiwayatActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
