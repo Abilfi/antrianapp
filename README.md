@@ -15,5 +15,6 @@ Aliya Kusuma Dewi (NIM : 24552011069)
 Penugasan : 
 Abil (mengerjakan Login dan Form Register)
 Ayipnoor (Mengerjakan Dashboard, profile, riwayat)
+Alya/Imam (Form isi data pasien & Tiket antrian pasien)
 
 Link Video : https://drive.google.com/drive/folders/1MhKXZRRe-RBfJm4YxeBliZwBMRVRE74Y 
